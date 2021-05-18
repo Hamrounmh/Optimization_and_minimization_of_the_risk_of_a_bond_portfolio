@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="false" name="MaxRendements" category="opl">
+			<ref name="CvarOptimisation.dat" type="data">
+			</ref>
+		</config>
+		<config default="true" name="MinCvar" category="opl">
+			<ref name="CvarOptimisation.mod" type="model">
+			</ref>
+			<ref name="CvarOptimisation.ops" type="setting">
+			</ref>
+			<ref name="CvarOptimisation.dat" type="data">
+			</ref>
+		</config>
+		<config default="false" name="Configuration 1" category="opl">
+			<ref name="CvarOptimisationMain.mod" type="model">
+			</ref>
+			<ref name="CvarOptimisation.dat" type="data">
+			</ref>
+		</config>
+	</configs>
+	
+</project>
